@@ -48,11 +48,32 @@
                 >Task Title</span
               >
               <div>
-                <a
+                <!-- <a
                   th:href="@{/{id}/toggle (id=${task.id})}"
                   class="btn btn-sm btn-outline-secondary"
                   >Toggle</a
+                > -->
+
+                <form
+                  th:action="@{/{id}/toggle(id=${task.id})}"
+                  method="post"
+                  class="d-inline"
                 >
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    th:checked="${task.completed}"
+                    onchange="this.form.submit()"
+                    style="
+                      width: 1.9rem;
+                      height: 1.9rem;
+                      border: 1px solid #6c757d;
+                      margin-top: -0.5px;
+                      cursor: pointer;
+                    "
+                  />
+                </form>
+
                 <a
                   th:href="@{/{id}/delete (id=${task.id})}"
                   class="btn btn-sm btn-outline-danger ml-2"
