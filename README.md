@@ -26,7 +26,7 @@ It lets you add, delete, and toggle (complete/incomplete) tasks, with a modern *
 ## 📸 Screenshots
 
 ### Home Page
-![App Screenshot]("https://github.com/user-attachments/assets/735e9c52-13a3-4bb9-9cb0-ba428980ad8d")
+![App Screenshot](["https://github.com/user-attachments/assets/735e9c52-13a3-4bb9-9cb0-ba428980ad8d"](https://github.com/mukund654/toDoList/issues/2#issue-3327247760))
 
 ---
 
