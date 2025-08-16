@@ -67,21 +67,4 @@ src
           └── application.properties
 ```
 
----
 
-## 🌟 Future Improvements
-- ✏️ Edit/update tasks  
-- 📅 Add due dates & priority  
-- 👤 Multi-user support with login  
-- 📱 Mobile-friendly layout  
-- ☁️ Deploy to Heroku / AWS  
-
----
-
-## 🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
