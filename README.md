@@ -26,7 +26,7 @@ It lets you add, delete, and toggle (complete/incomplete) tasks, with a modern *
 ## 📸 Screenshots
 
 ### Home Page
-![App Screenshot](https://via.placeholder.com/800x400?text=Screenshot+Coming+Soon)
+![App Screenshot](<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/735e9c52-13a3-4bb9-9cb0-ba428980ad8d" />)
 
 ---
 
