@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 //import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import com.app.todoApp.TodoAppApplication;
+//import com.app.todoApp.TodoAppApplication;
 import com.app.todoApp.models.Task;
 import com.app.todoApp.services.TaskService;
 
@@ -17,13 +17,13 @@ import com.app.todoApp.services.TaskService;
 // @RequestMapping("/tasks")
 public class TaskController {
 
-    private final TodoAppApplication todoAppApplication;
+   // private final TodoAppApplication todoAppApplication;
 
     private final TaskService ts;
 
-    public TaskController(TaskService ts, TodoAppApplication todoAppApplication) {
+    public TaskController(TaskService ts) {
         this.ts = ts;
-        this.todoAppApplication = todoAppApplication;
+        //this.todoAppApplication = todoAppApplication;
     }
 
     // the tasks we returning as a string is a thymeleaf template and we are passing
